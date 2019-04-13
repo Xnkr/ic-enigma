@@ -49,7 +49,7 @@ void loop()
  {
     if(started){
     //Enable this two lines if you want to send an SMS.
-    if (sms.SendSMS("+919840673649", "Arduino SMS"))
+    if (sms.SendSMS("+xxxxxx", "Arduino SMS"))
       Serial.println("\nSMS sent OK");
       count--;
   }
